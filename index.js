@@ -152,6 +152,6 @@ function myFunction(index) {
 
 function cartFunction(){
 localStorage.setItem("cartSect", JSON.stringify(cart));
-window.location='Cart.html';
+window.location='cart.html';
 }
  
