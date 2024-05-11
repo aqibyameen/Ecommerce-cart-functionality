@@ -13,7 +13,7 @@ if (carti){
      carted.innerHTML="";
      let total=0;
      if (carti.length<1) {
-        nav.innerHTM=`
+        nav.innerHTML=`
         
         
 
