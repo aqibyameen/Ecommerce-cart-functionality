@@ -99,7 +99,7 @@ function removeFuntion(i){
     let arr= JSON.parse(localStorage.getItem("cartSect"));
         arr.splice(i,1);
         localStorage.setItem("cartSect",JSON.stringify(arr));
-         window.location.href="Cart.html";
+         window.location.href="cart.html";
 }
 function increment(index){
     let arr= JSON.parse(localStorage.getItem("cartSect"));
